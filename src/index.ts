@@ -231,27 +231,29 @@
 // console.log(source);
 // console.log(proxy);
 
-let s = "hello world!";
-console.log(s.at(-2));
-console.log(s.charAt(0));
-console.log(s.charCodeAt(0));
-console.log(s.codePointAt(0));
-console.log(s.concat("sd","sds"));
-console.log(s.endsWith("!"));
-console.log(s.includes("o"));
-console.log(s.indexOf("o"));
-console.log(s.lastIndexOf("o"));
-console.log(s.length);
-console.log(s.normalize());
-console.log(s.match(/!/i));
-console.log(s.repeat(2));
-console.log(s.localeCompare("hello"));
-console.log(s.valueOf());
-console.log(s.trim());
-console.log(s.replace("o", "@"));
-console.log(s.replaceAll("o", "@"));
-console.log(s.padStart(20, "@"));
+// let s = "hello world!";
+// console.log(s.at(-2));
+// console.log(s.charAt(0));
+// console.log(s.charCodeAt(0));
+// console.log(s.codePointAt(0));
+// console.log(s.concat("sd","sds"));
+// console.log(s.endsWith("!"));
+// console.log(s.includes("o"));
+// console.log(s.indexOf("o"));
+// console.log(s.lastIndexOf("o"));
+// console.log(s.length);
+// console.log(s.normalize());
+// console.log(s.match(/!/i));
+// console.log(s.repeat(2));
+// console.log(s.localeCompare("hello"));
+// console.log(s.valueOf());
+// console.log(s.trim());
+// console.log(s.replace("o", "@"));
+// console.log(s.replaceAll("o", "@"));
+// console.log(s.padStart(20, "@"));
 
+
+console.log(`hello world! ${2}`);
 
 
 
