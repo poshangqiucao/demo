@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "target": "ESNext", //使用es7的标准
+      "module": "CommonJS", //编译目标的模块化标准，由于是node环境，使用commonjs的模块化标准
+      "lib": [
+        "DOM",
+        "ESNext"
+      ], // ts使用的环境是node, 使用es的环境，如果是dom的话，直接使用dom
+      "outDir": "./dist" // 编译输出的目录
+    },
+    "include": ["./src"], // 值编译src里面的.ts文件
+    // "files": [], // 指定编译的文件
+  }
+  
+  
